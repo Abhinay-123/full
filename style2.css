@@ -1,0 +1,287 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  }
+  .heading{
+  width: 100%;
+  height: 70px;
+  background-color: #A93226;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.heading h2{
+  line-height: 70px;
+  color: white;
+    text-align: center;
+}
+.dropdown{
+  position: absolute;
+  float:right;
+  margin: -65px 30px 0 0;
+}
+.dropdown button img{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  margin-left: -35px;
+  margin-top: -35px;
+ border-radius: 75px;
+}
+.dropdown button {
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+  border-radius: 75px;
+}
+.dropdown a{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+
+
+}
+.dropdown-content{
+  color: #ABB2B9;
+}
+.dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#D7DBDD;
+  min-width: 330px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -180px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#A93226;color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.upcoming{
+  width: 100%;
+  height: 50px;
+  background-color: #BDC3C7;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom:10px;
+  margin-top: 30px;
+}
+.upcoming h3{
+  line-height: 50px;
+  color: white;
+}
+.logo{
+width: 100%;
+text-align: center;
+}
+.logo a{
+  color: #808B96;
+  margin-right: 60px;
+}
+.match-1{
+  background-color: white;
+width: 400px;
+height: 180px;
+border-color: #AEB6BF;
+border-style: solid;
+border-width: 1px;
+border-radius: 20px;
+margin: 20px 0 40px 30%;
+}
+.match-2{
+  background-color: white;
+  width: 400px;
+  height: 180px;
+  border-color: #AEB6BF;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  margin: 20px 0 40px 10%;
+}
+.match-3{
+  background-color: white;
+  width: 400px;
+  height: 180px;
+  border-color: #AEB6BF;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  margin: 20px 0 40px 30%;
+}
+.match-4{
+  background-color: white;
+  width: 400px;
+  height: 180px;
+  border-color: #AEB6BF;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  margin: 20px 0 40px 10%;
+}
+.lorem{
+  width: 100%;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:white white black white;
+  border-radius: 20px 20px 0px 0px;
+}
+.league{
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.time{
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.team1 {
+  float: left;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.team1 img{
+  width: 90px;
+  height: 50px;
+
+}
+.team2{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.team2 img{
+  width: 90px;
+  height: 50px;
+
+}
+.vs{
+float:left;
+margin-top: 30px;
+margin-left: 20px;
+}
+.prize h4{
+  line-height: 40px;
+  height: 40px;
+  background-color:#A93226;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 0px 0px 20px 20px;
+}
+.prize h4:hover{
+  background-color:#7B241C;
+  cursor: pointer;
+}
+.eight-section{
+  width: 100%;
+  height: 300px;
+  background-color: #1C2833;
+  color: white;
+}
+
+.eight1{
+float: left;
+font-family:Montserrat;
+margin-left: 50px;
+margin-top: 70px;
+}
+.eight1 h2{
+  margin-bottom: 30px;
+}
+.eight1-icon i{
+  margin: 20px;
+}
+.eight2{
+float: left;
+margin-left: 130px;
+margin-top: 70px;
+
+}
+.eight2 ul li{
+  list-style: none;
+  font-size: 16px;
+  font-family:Montserrat;
+  line-height: 40px;
+}
+.eight3 ul li{
+  list-style: none;
+  font-size: 16px;
+  font-family:Montserrat;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.eight4{
+float: left;
+font-family:Montserrat;
+margin-left: 60px;
+margin-top: 70px;
+}
+.eight4 img{
+  width: 70px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.eight3{
+float: left;
+margin-left: 60px;
+margin-top: 70px;
+border-width: 1px;
+border-color: #1C2833 white #1C2833 #1C2833;
+border-style: solid;
+}
+.eight5{
+  background-color: #1C2833;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  margin-top: -14px;
+}
+.ninth-section{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -15px;
+}

@@ -1,0 +1,358 @@
+
+
+.creat_team{
+  width: 100%;
+  height: 70px;
+  background-color: #A93226;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.create h2{
+  text-align: center;
+  color: white;
+  line-height: 70px;
+}
+
+
+.dropdown{
+  position: absolute;
+  float:right;
+  margin: -65px 30px 0 0;
+}
+.dropdown button img{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  margin-left: -35px;
+  margin-top: -25px;
+ border-radius: 75px;
+}
+.dropdown button {
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+  border-radius: 75px;
+}
+.dropdown a{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+
+
+}
+.dropdown-content{
+  color: #ABB2B9;
+}
+.dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#D7DBDD;
+  min-width: 330px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -180px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#A93226;color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+
+.select{
+  float: left;
+}
+.creat{
+  float: left;
+}
+.join{
+float: left;
+}
+.arrow-1{
+  float:left;
+  width: 180px;
+}
+.arrow-2{
+  float: left;
+  width: 200px;
+}
+.direction{
+  background-color:;
+  text-align: center;
+  margin-top:-10px;
+  height: 50px;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.body_section{
+  background-color: white;
+  margin-top: 50px;
+  width: 70vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.choose{
+  width: 70vw;
+
+  margin-top: 10px;
+}
+.choose h5{
+  text-align: center;
+}
+.captain{
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.vice_captain{
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+.fifth_section{
+  width: 70vw;
+  background-color: #A93226;
+  color: white
+  margin-top: 80px;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom:0px;
+  height: 30px;
+}
+.name{
+  color: white;
+}
+.point{
+  color: white;
+}
+.c_by{
+  color: white;
+}
+.vc_by{
+  color: white;
+}
+.name img{
+  width: 20px;
+  height: 20px;
+}
+.about_player{
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+.player-table{
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.player_name{
+  margin-top: 15px;
+}
+.player_points{
+  margin-top: 15px;
+}
+.player_credit{
+  margin-top: 15px;
+}
+.player_pic img{
+  width: 70px;
+  height: 70px;
+  background-color: #D0D3D4;
+}
+.player_pic p{
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.player_points h6{
+  width: 30px;
+  height: 30px;
+  border-radius:75px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 100px;
+}
+.player_points p{
+  margin-left: 40px;
+}
+.player_credit h6{
+  width: 30px;
+  height: 30px;
+  border-radius:75px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 100px;
+}
+.player_credit p{
+  margin-left: 40px;
+}
+.about_button{
+  height: 110px;
+  border-color: white  black black black;
+  border-style: solid;
+  border-width: 1px;
+}
+.BUTTONS{
+  width: 35vw;
+  position: static;
+  left: 50%;
+  transform: translate(50%);
+  margin-top: 30px;
+}
+.previous button{
+  width: 150px;
+  height: 60px;
+  float: left;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+.next button{
+  width: 150px;
+  height: 60px;
+  float: right;
+  background-color:green;
+  color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+
+}
+
+.eight-section{
+  width: 100vw;
+  height: 300px;
+  background-color: #1C2833;
+  color: white;
+  margin-top: 1500px;
+}
+
+.eight1{
+float: left;
+font-family:Montserrat;
+margin-top: 70px;
+}
+.eight1 h2{
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.eight1-icon{
+    margin-left: 60px;
+}
+.eight1-icon i{
+  margin: 20px;
+}
+.eight2{
+float: left;
+margin-top: 70px;
+
+}
+.eight2 ul li{
+  list-style: none;
+  font-size: 16px;
+  font-family:Montserrat;
+  line-height: 27px;
+}
+.eight3 ul li{
+  list-style: none;
+  font-size: 16px;
+  font-family:Montserrat;
+  line-height: 35px;
+  margin-right: 20px;
+}
+.eight4{
+float: left;
+font-family:Montserrat;
+margin-top: 70px;
+}
+.eight4 h2{
+  text-align: center;
+}
+.eight4 img{
+  width: 70px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.eight3{
+float: left;
+margin-top: 70px;
+border-width: 1px;
+border-color: #1C2833 white #1C2833 #1C2833;
+border-style: solid;
+}
+.eight5{
+  background-color: #1C2833;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  margin-top: -14px;
+}
+.ninth-section{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -15px;
+}

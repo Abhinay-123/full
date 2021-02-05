@@ -1,0 +1,401 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+
+  }
+  .heading{
+  width: 100%;
+  height: 70px;
+  background-color: #A93226;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.heading h2{
+  line-height: 70px;
+  color: white;
+    text-align: center;
+}
+.dropdown{
+  position: absolute;
+  float:right;
+  margin: -65px 30px 0 0;
+}
+.dropdown button img{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  margin-left: -35px;
+  margin-top: -35px;
+ border-radius: 75px;
+}
+.dropdown button {
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+  border-radius: 75px;
+}
+.dropdown a{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+
+
+}
+.dropdown-content{
+  color: #ABB2B9;
+}
+.dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#D7DBDD;
+  min-width: 330px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -180px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#A93226;color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.direction{
+  background-color:;
+  text-align: center;
+  margin-top:-10px;
+  height: 50px;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.select{
+  float: left;
+}
+.creat{
+  float: left;
+}
+.join{
+float: left;
+}
+.arrow-1{
+  float:left;
+  width: 180px;
+}
+.arrow-2{
+  float: left;
+  width: 200px;
+}
+.timing{
+  width: 70vw;
+  height: 60px;
+  background-color:#A93226;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+.timing h2{
+    line-height: 60px;
+}
+.league{
+  background-color: white;
+  margin-top: 100px;
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,.2);
+}
+.league h5{
+  line-height: 62px;
+}
+.current{
+  width: 70vw;
+  text-align: center;
+}
+.esi{
+  float: left;
+  margin-right:25%;
+}
+.between{
+  float: left;
+  color: red;
+}
+.wsh{
+float:right;
+margin-top: 10px;
+}
+.no-esi{
+  margin-top: 10px;
+}
+.black-space{
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.black-space .fa{
+  margin-right: 40px;
+}
+.forth-section{
+  width: 70vw;
+  background-color:white;
+  margin-top: 334px;
+  border-color:white;
+  border-style: solid;
+  border-width: 1px;
+  position:absolute;
+  left: 50%;
+  transform: translate(-48.3%);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,.2);
+}
+.def h5{
+  color: #BFC9CA;
+}
+.mid{
+  color: #BFC9CA;
+}
+.st{
+  color: #BFC9CA;
+}
+.keeper{
+  width: 70vw;
+height: 59px;
+border-width: 1px;
+border-color: gray;
+border-style: solid;
+  left: 50%;
+  transform: translate(20.5%);
+  background-color: #F7F9F9;
+  margin-top: 386px;
+}
+.fifth_section{
+  width: 70vw;
+  height: 40px;
+  margin-top:-35px;
+  background-color: #F7F9F9;
+  line-height: 40px;
+  position: static;
+  left: 50%;
+  transform: translate(22.1%);
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.name p{
+margin-left: 80px;
+}
+.name img{
+  width: 18px;
+  height: 18px;
+
+}
+.point p{
+  margin-left: 20px;
+}
+.point img{
+  width: 18px;
+  height: 18px;
+}
+.credit p{
+  margin-left:20px;
+}
+.credit img{
+  width: 18px;
+  height: 18px;
+}
+.player_rating{
+  width: 70vw;
+  background-color: white;
+  left: 50%;
+  transform: translate(20.4%);
+  margin-top: -0px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+.table{
+  margin-top: 10px;
+}
+.player_pic{
+  float: left;
+
+}
+.player_pic img{
+background-color: #CACFD2;
+margin-left: 40px;
+margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+.player_pic p{
+position: absolute;
+margin-top: -20px;
+margin-left: 40px;
+border-radius: 5px;
+}
+.player_name h6{
+
+}
+.player_points{
+  margin-top: 30px;
+}
+.player_points h6{
+  margin-left: 20px;
+}
+.player_credit{
+  margin-top: 30px;
+
+}
+.credit_points{
+  float: left;
+  margin-right: 20px;
+}
+.BUTTONS{
+  width: 35vw;
+  position: static;
+  left: 50%;
+  transform: translate(90.4%);
+  margin-top: 30px;
+}
+.previous button{
+  width: 150px;
+  height: 60px;
+  float: left;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+.next button{
+  width: 150px;
+  height: 60px;
+  float: right;
+  background-color:green;
+  color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+.eight-section{
+  width: 100vw;
+  height: 300px;
+  background-color: #1C2833;
+  color: white;
+  margin-top: 130px;
+}
+
+.eight1{
+float: left;
+font-family:Montserrat;
+margin-top: 70px;
+}
+.eight1 h2{
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.eight1-icon{
+    margin-left: 60px;
+}
+.eight1-icon i{
+  margin: 20px;
+}
+.eight2{
+float: left;
+margin-top: 70px;
+
+}
+.eight2 ul li{
+  list-style: none;
+  font-size: 16px;
+  font-family:Montserrat;
+  line-height: 40px;
+}
+.eight3 ul li{
+  list-style: none;
+  font-size: 16px;
+  font-family:Montserrat;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.eight4{
+float: left;
+font-family:Montserrat;
+margin-top: 70px;
+}
+.eight4 h2{
+  text-align: center;
+}
+.eight4 img{
+  width: 70px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.eight3{
+float: left;
+margin-top: 70px;
+border-width: 1px;
+border-color: #1C2833 white #1C2833 #1C2833;
+border-style: solid;
+}
+.eight5{
+  background-color: #1C2833;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  margin-top: -14px;
+}
+.ninth-section{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -15px;
+}
